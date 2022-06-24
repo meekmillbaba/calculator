@@ -1,0 +1,61 @@
+body {
+  background-color: aquamarine;
+}
+footer {
+  text-align: right;
+}
+.container {
+  background-color: rgb(9, 78, 78);
+  height: 85vh;
+  width: 280px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+#allresult {
+  height: 100px;
+}
+
+#allhistory {
+  color: rgb(206, 221, 235);
+  text-align: right;
+  height: 20px;
+  margin: 0 20px;
+  padding-top: 15px;
+  font-size: 20px;
+}
+#alloutput {
+  color: aliceblue;
+  text-align: right;
+  height: 50px;
+  margin: 10px 20px;
+  font-size: 35px;
+}
+#keyboard {
+  height: 300px;
+}
+
+.operator,
+.number {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  float: left;
+  border-radius: 50px;
+  border-width: 0px;
+  cursor: pointer;
+}
+.number1 {
+  width: 120px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 50px;
+  border-width: 0px;
+  float: left;
+}
+@media only screen and(max-width:500px) {
+  .container {
+    max-height: fit-content;
+    max-width: fit-content;
+  }
+}
